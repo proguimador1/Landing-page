@@ -1,0 +1,84 @@
+:root{
+    --primary-color: #0a1128;
+    --white-color: #fff;
+    --light-gray-color: rgb(210,210,210);
+    --secondary-color: crimson;
+    --gap: 3rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 5.5rem;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+
+h5{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+h6{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+p{
+    margin: 2rem;
+    font-size: 2.2rem;
+}
+
+table{
+    white-space: nowrap;
+    min-width: 50rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    padding: 0.8rem;
+    border: 0.1rem solid var(--light-gray-color);
+    text-align: left;
+}
+
+tfoot td, thead th{background-color: var(--light-gray-color);}
+
+table caption{
+    font-style: italic;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 0.6rem;
+}
